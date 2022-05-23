@@ -22,7 +22,6 @@ namespace LagetonixLibraryAssessment.Models.Models
         public DateTime LastDateUpdated { get; set; }
         public bool isDeleted { get; set; }
         public DateTime DateDeleted { get; set; }
-        public virtual Catergory catergories { get; set; }
 
     }
 }

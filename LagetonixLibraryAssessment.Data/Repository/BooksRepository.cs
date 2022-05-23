@@ -28,9 +28,26 @@ namespace LagetonixLibraryAssessment.Data.IRepository
             try
             {
                 var Response = new BaseResponse();
-                
-                var booklist = await _appDbContext.Books.Include(c=>c.catergories).Where(c=>!c.isDeleted).ToListAsync();
-               
+                var booklist = await _appDbContext.Books
+                    .Select(b => new BooksDTO()
+                    {
+                        BookID = b.BookID,
+                        CategoryId = b.CategoryId,
+                        BookName = b.BookName,
+                        DateCreated = b.DateCreated,
+                        isDeleted = b.isDeleted,
+                        IsFavorite = b.IsFavorite,
+                        CreatedByUserID = b.CreatedByUserID,
+                        LastDateUpdated = b.LastDateUpdated,
+                        CategoryName = _appDbContext.Catergories
+                                    .Where(c => c.CategoryId == b.CategoryId && !b.isDeleted)
+                                    .Select(c => c.CategoryName)
+                                    .SingleOrDefault()
+                    }).Where(b=>!b.isDeleted)
+                    .ToListAsync();
+
+               // var booklist = await _appDbContext.Books.Where(x => !x.isDeleted).ToListAsync();
+
                 if (booklist.Count>0)
                 {
                     Response.Data = booklist;
@@ -60,7 +77,25 @@ namespace LagetonixLibraryAssessment.Data.IRepository
             try
             {
                 var Response = new BaseResponse();
-                var booklist = await _appDbContext.Books.Where(x=>x.IsFavorite).ToListAsync();
+                //var booklist = await _appDbContext.Books.Where(x=>x.IsFavorite).ToListAsync();
+                var booklist = await _appDbContext.Books
+                    .Select(b => new BooksDTO()
+                    {
+                        BookID = b.BookID,
+                        CategoryId = b.CategoryId,
+                        BookName = b.BookName,
+                        DateCreated = b.DateCreated,
+                        isDeleted = b.isDeleted,
+                        IsFavorite = b.IsFavorite,
+                        CreatedByUserID = b.CreatedByUserID,
+                        LastDateUpdated = b.LastDateUpdated,
+                        CategoryName = _appDbContext.Catergories
+                                    .Where(c => c.CategoryId == b.CategoryId && !b.isDeleted)
+                                    .Select(c => c.CategoryName)
+                                    .SingleOrDefault()
+                    }).Where(b => !b.isDeleted && b.IsFavorite)
+                    .ToListAsync();
+
                 if (booklist.Count > 0)
                 {
                     Response.Data = booklist;
@@ -90,7 +125,25 @@ namespace LagetonixLibraryAssessment.Data.IRepository
             try
             {
                 var Response = new BaseResponse();
-                var booklist = await _appDbContext.Books.Where(x=>x.BookID==bookid && !x.isDeleted).SingleOrDefaultAsync();
+                //var booklist = await _appDbContext.Books.Where(x=>x.BookID==bookid && !x.isDeleted).SingleOrDefaultAsync();
+
+                var booklist = await _appDbContext.Books
+                    .Select(b => new BooksDTO()
+                    {
+                        BookID = b.BookID,
+                        CategoryId = b.CategoryId,
+                        BookName = b.BookName,
+                        DateCreated = b.DateCreated,
+                        isDeleted = b.isDeleted,
+                        IsFavorite = b.IsFavorite,
+                        CreatedByUserID = b.CreatedByUserID,
+                        LastDateUpdated = b.LastDateUpdated,
+                        CategoryName = _appDbContext.Catergories
+                                    .Where(c => c.CategoryId == b.CategoryId && !b.isDeleted)
+                                    .Select(c => c.CategoryName)
+                                    .SingleOrDefault()
+                    }).Where(b =>b.BookID==bookid && !b.isDeleted)
+                    .SingleOrDefaultAsync();
                 if (booklist!=null)
                 {
                     Response.Data = booklist;
