@@ -10,6 +10,7 @@ namespace LagetonixLibraryAssessment.Data.DTO_s
     {
         public long BookID { get; set; }
         public string BookName { get; set; }
+        public string CategoryName { get; set; }
         public long CategoryId { get; set; }
         public bool IsFavorite { get; set; }
         public long CreatedByUserID { get; set; }

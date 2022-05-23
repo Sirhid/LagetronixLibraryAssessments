@@ -28,7 +28,9 @@ namespace LagetonixLibraryAssessment.Data.IRepository
             try
             {
                 var Response = new BaseResponse();
-                var booklist = await _appDbContext.Books.Where(x=>!x.isDeleted).ToListAsync();
+                
+                var booklist = await _appDbContext.Books.Include(c=>c.catergories).Where(c=>!c.isDeleted).ToListAsync();
+               
                 if (booklist.Count>0)
                 {
                     Response.Data = booklist;
