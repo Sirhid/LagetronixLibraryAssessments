@@ -1,0 +1,12 @@
+C:\Users\saheed.alabi\source\repos\LagetronixLibraryAssessment\LagetonixLibraryAssessment.Business\bin\Debug\net5.0\LagetonixLibraryAssessment.Business.deps.json
+C:\Users\saheed.alabi\source\repos\LagetronixLibraryAssessment\LagetonixLibraryAssessment.Business\bin\Debug\net5.0\LagetonixLibraryAssessment.Business.dll
+C:\Users\saheed.alabi\source\repos\LagetronixLibraryAssessment\LagetonixLibraryAssessment.Business\bin\Debug\net5.0\ref\LagetonixLibraryAssessment.Business.dll
+C:\Users\saheed.alabi\source\repos\LagetronixLibraryAssessment\LagetonixLibraryAssessment.Business\bin\Debug\net5.0\LagetonixLibraryAssessment.Business.pdb
+C:\Users\saheed.alabi\source\repos\LagetronixLibraryAssessment\LagetonixLibraryAssessment.Business\obj\Debug\net5.0\LagetonixLibraryAssessment.Business.csproj.AssemblyReference.cache
+C:\Users\saheed.alabi\source\repos\LagetronixLibraryAssessment\LagetonixLibraryAssessment.Business\obj\Debug\net5.0\LagetonixLibraryAssessment.Business.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\saheed.alabi\source\repos\LagetronixLibraryAssessment\LagetonixLibraryAssessment.Business\obj\Debug\net5.0\LagetonixLibraryAssessment.Business.AssemblyInfoInputs.cache
+C:\Users\saheed.alabi\source\repos\LagetronixLibraryAssessment\LagetonixLibraryAssessment.Business\obj\Debug\net5.0\LagetonixLibraryAssessment.Business.AssemblyInfo.cs
+C:\Users\saheed.alabi\source\repos\LagetronixLibraryAssessment\LagetonixLibraryAssessment.Business\obj\Debug\net5.0\LagetonixLibraryAssessment.Business.csproj.CoreCompileInputs.cache
+C:\Users\saheed.alabi\source\repos\LagetronixLibraryAssessment\LagetonixLibraryAssessment.Business\obj\Debug\net5.0\LagetonixLibraryAssessment.Business.dll
+C:\Users\saheed.alabi\source\repos\LagetronixLibraryAssessment\LagetonixLibraryAssessment.Business\obj\Debug\net5.0\ref\LagetonixLibraryAssessment.Business.dll
+C:\Users\saheed.alabi\source\repos\LagetronixLibraryAssessment\LagetonixLibraryAssessment.Business\obj\Debug\net5.0\LagetonixLibraryAssessment.Business.pdb

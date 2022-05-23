@@ -1,0 +1,15 @@
+{
+  "version": 2,
+  "dgSpecHash": "L4PX6c7Suor0b5uC4HmHIIlQGcJf47Y1sizdi8IwpfTs2n0C4hFma7jw2F7AB9mBymuT7aMLU7dk52jg0R3Dog==",
+  "success": true,
+  "projectFilePath": "C:\\Users\\saheed.alabi\\source\\repos\\LagetronixLibraryAssessment\\LagetonixLibraryAssessment.Business\\LagetonixLibraryAssessment.Business.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\saheed.alabi\\.nuget\\packages\\microsoft.extensions.caching.abstractions\\5.0.0\\microsoft.extensions.caching.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\saheed.alabi\\.nuget\\packages\\microsoft.extensions.caching.memory\\5.0.0\\microsoft.extensions.caching.memory.5.0.0.nupkg.sha512",
+    "C:\\Users\\saheed.alabi\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\5.0.0\\microsoft.extensions.dependencyinjection.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\saheed.alabi\\.nuget\\packages\\microsoft.extensions.logging.abstractions\\5.0.0\\microsoft.extensions.logging.abstractions.5.0.0.nupkg.sha512",
+    "C:\\Users\\saheed.alabi\\.nuget\\packages\\microsoft.extensions.options\\5.0.0\\microsoft.extensions.options.5.0.0.nupkg.sha512",
+    "C:\\Users\\saheed.alabi\\.nuget\\packages\\microsoft.extensions.primitives\\5.0.0\\microsoft.extensions.primitives.5.0.0.nupkg.sha512"
+  ],
+  "logs": []
+}

@@ -1,0 +1,12 @@
+C:\Users\saheed.alabi\source\repos\LagetronixLibraryAssessment\LagetonixLibraryAssessment.Common\bin\Debug\net5.0\LagetonixLibraryAssessment.Models.deps.json
+C:\Users\saheed.alabi\source\repos\LagetronixLibraryAssessment\LagetonixLibraryAssessment.Common\bin\Debug\net5.0\LagetonixLibraryAssessment.Models.dll
+C:\Users\saheed.alabi\source\repos\LagetronixLibraryAssessment\LagetonixLibraryAssessment.Common\bin\Debug\net5.0\ref\LagetonixLibraryAssessment.Models.dll
+C:\Users\saheed.alabi\source\repos\LagetronixLibraryAssessment\LagetonixLibraryAssessment.Common\bin\Debug\net5.0\LagetonixLibraryAssessment.Models.pdb
+C:\Users\saheed.alabi\source\repos\LagetronixLibraryAssessment\LagetonixLibraryAssessment.Common\obj\Debug\net5.0\LagetonixLibraryAssessment.Models.csproj.AssemblyReference.cache
+C:\Users\saheed.alabi\source\repos\LagetronixLibraryAssessment\LagetonixLibraryAssessment.Common\obj\Debug\net5.0\LagetonixLibraryAssessment.Models.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\saheed.alabi\source\repos\LagetronixLibraryAssessment\LagetonixLibraryAssessment.Common\obj\Debug\net5.0\LagetonixLibraryAssessment.Models.AssemblyInfoInputs.cache
+C:\Users\saheed.alabi\source\repos\LagetronixLibraryAssessment\LagetonixLibraryAssessment.Common\obj\Debug\net5.0\LagetonixLibraryAssessment.Models.AssemblyInfo.cs
+C:\Users\saheed.alabi\source\repos\LagetronixLibraryAssessment\LagetonixLibraryAssessment.Common\obj\Debug\net5.0\LagetonixLibraryAssessment.Models.csproj.CoreCompileInputs.cache
+C:\Users\saheed.alabi\source\repos\LagetronixLibraryAssessment\LagetonixLibraryAssessment.Common\obj\Debug\net5.0\LagetonixLibraryAssessment.Models.dll
+C:\Users\saheed.alabi\source\repos\LagetronixLibraryAssessment\LagetonixLibraryAssessment.Common\obj\Debug\net5.0\ref\LagetonixLibraryAssessment.Models.dll
+C:\Users\saheed.alabi\source\repos\LagetronixLibraryAssessment\LagetonixLibraryAssessment.Common\obj\Debug\net5.0\LagetonixLibraryAssessment.Models.pdb
