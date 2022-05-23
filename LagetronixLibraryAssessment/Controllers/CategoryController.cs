@@ -15,6 +15,7 @@ namespace LagetronixLibraryAssessment.Controllers
     [ApiController]
     public class CategoryController : ControllerBase
     {
+        //
         private readonly ICategoryRepository _categoryRepository;
         private readonly IMemoryCache _cache;
 
